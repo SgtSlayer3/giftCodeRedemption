@@ -4,17 +4,20 @@
 - Reads player IDs and usernames from a playerIDs.txt file.
 - Automatically fills in player IDs and a gift code.
 - Clicks through the login and confirm steps for each player.
-- Logs progress in the terminal.
+- Logs progress to log.txt.
 - Takes a screenshot if redemption fails for any player.
 
 **File Structure:**
 .
 ├── giftCodeRedeem.py      # Main script
 ├── playerIDs.txt          # Input file containing player IDs and usernames
+├── log.txt                # Log file with output
 └── README.md              # This file
 
 **Requirements:**
-pip install selenium webdriver-manager
+- pip install selenium webdriver-manager
+- Google Chrome
+- Python 3.7+
 
 **Input Format:**
 playerIDs.txt must be formated like this:
@@ -22,6 +25,11 @@ playerIDs.txt must be formated like this:
 987654321 Username2
 
 **Usage:**
-Edit the gift_code value on line 10.
-Run the script:
-  python giftCodeRedeem.py
+- Edit PlayerIDs.txt with your real data
+- Run the script: python giftCodeRedeem.py
+- Enter the gift code when prompted. Be sure to get this right as invalid codes will still run.
+- IDs are printed to log.txt
+
+**Other notes:**
+- There is very limited error checking if there is an invalid ID or code it will still run with no warnings.
+- Any fails check the corresponding debug_<PlayerID>_<Username>_error.png
