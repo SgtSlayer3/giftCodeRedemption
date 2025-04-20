@@ -1,4 +1,5 @@
 **Gift Code Redeemer for list of IDs**
+Allows one user to efficiently redeem new codes for their entire alliance or an entire state.
 
 **Process:**
 - Reads player IDs and usernames from a playerIDs.txt file.
