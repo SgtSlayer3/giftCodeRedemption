@@ -1,3 +1,15 @@
+"""
+Automated Gift Code Redemption Script
+
+This script automates the process of redeeming a gift codes for players
+on the Century Games gift code website (https://ks-giftcode.centurygame.com/)
+for a list of player IDs provided in 'playerIDs.txt'. The same gift code is
+applied to all players. Logs of each redemption attempt are saved in 'log.txt'.
+
+Author: SgtSlayer
+Date: 4/20/2025
+"""
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
