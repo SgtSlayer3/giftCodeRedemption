@@ -26,10 +26,15 @@ playerIDs.txt must be formated like this:
 987654321 Username2
 
 **Usage:**
-- Edit PlayerIDs.txt with your real data
-- Run the script: python giftCodeRedeem.py
+- Clone the repository:  
+  `git clone https://github.com/yourusername/gift-code-redeemer.git`
+- Navigate into the folder:  
+  `cd gift-code-redeemer`
+- Edit `playerIDs.txt` with your real data  
+- Run the script:  
+  `python giftCodeRedeem.py`
 - Enter the gift code when prompted. Be sure to get this right as invalid codes will still run.
-- IDs are printed to log.txt
+- IDs are printed to `log.txt`
 
 **Other notes:**
 - There is very limited error checking if there is an invalid ID or code it will still run with no warnings.
