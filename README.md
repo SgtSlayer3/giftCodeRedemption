@@ -32,4 +32,4 @@ playerIDs.txt must be formated like this:
 
 **Other notes:**
 - There is very limited error checking if there is an invalid ID or code it will still run with no warnings.
-- Any fails check the corresponding debug_<PlayerID>_<Username>_error.png
+- Any fails check the corresponding debug_<PlayerID>_error.png
