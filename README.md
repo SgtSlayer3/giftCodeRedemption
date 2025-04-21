@@ -3,7 +3,7 @@ Allows one user to efficiently redeem new codes for their entire alliance or an 
 
 **Process:**
 - Reads player IDs and usernames from a playerIDs.txt file.
-- Automatically fills in player IDs and a gift code.
+- Automatically fills in player IDs and the gift code.
 - Clicks through the login and confirm steps for each player.
 - Logs progress to log.txt.
 - Takes a screenshot if redemption fails for any player.
@@ -27,7 +27,7 @@ playerIDs.txt must be formated like this:
 
 **Usage:**
 - Clone the repository:  
-  `git clone https://github.com/yourusername/gift-code-redeemer.git`
+  `git clone https://github.com/SgtSlayer3/giftCodeRedemption.git`
 - Navigate into the folder:  
   `cd gift-code-redeemer`
 - Edit `playerIDs.txt` with your real data  
