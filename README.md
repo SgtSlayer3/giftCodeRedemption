@@ -29,7 +29,7 @@ playerIDs.txt must be formated like this:
 - Clone the repository:  
   `git clone https://github.com/SgtSlayer3/giftCodeRedemption.git`
 - Navigate into the folder:  
-  `cd gift-code-redeemer`
+  `cd giftCodeRedemption`
 - Edit `playerIDs.txt` with your real data  
 - Run the script:  
   `python giftCodeRedeem.py`
