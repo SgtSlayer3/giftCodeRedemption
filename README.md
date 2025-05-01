@@ -38,7 +38,6 @@ playerIDs.txt must be formated like this:
 
 **Videos of how to install and run:**
 - Windows: https://youtu.be/ZcVtstyf4c8
-- Linux: 
 
 **Other notes:**
 - There is very limited error checking if there is an invalid ID or code it will still run with no warnings.
