@@ -36,6 +36,10 @@ playerIDs.txt must be formated like this:
 - Enter the gift code when prompted. Be sure to get this right as invalid codes will still run.
 - IDs are printed to `log.txt`
 
+**Videos of how to install and run:**
+- Windows: https://youtu.be/ZcVtstyf4c8
+- Linux: 
+
 **Other notes:**
 - There is very limited error checking if there is an invalid ID or code it will still run with no warnings.
 - Any fails check the corresponding debug_<PlayerID>_error.png
